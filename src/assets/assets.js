@@ -19,6 +19,7 @@ export const card=[
         gearbox:"automatic",
         seats:2,
         door:2,
+        color:"white",
     },
     {
         id:2,
@@ -31,6 +32,7 @@ export const card=[
         gearbox:"manual",
         seats:4,
         door:4,
+        color:"white",
     },
     {
         id:3,
@@ -43,6 +45,7 @@ export const card=[
         gearbox:"automatic",
         seats:2,
         door:2,
+        color:"white",
     },
     {
         id:4,
@@ -55,6 +58,7 @@ export const card=[
         gearbox:"manual",
         seats:4,
         door:4,
+        color:"white",
     },
     {
         id:5,
@@ -67,6 +71,7 @@ export const card=[
         gearbox:"automatic",
         seats:2,
         door:2,
+        color:"white",
     },
     {
         id:6,
@@ -79,6 +84,7 @@ export const card=[
         gearbox:"automatic",
         seats:2,
         door:2,
+        color:"white",
     },
     {
         id:7,
@@ -91,6 +97,7 @@ export const card=[
         gearbox:"manual",
         seats:4,
         door:4,
+        color:"white",
     },
     {
         id:8,
@@ -103,5 +110,6 @@ export const card=[
         gearbox:"automatic",
         seats:4,
         door:2,
+        color:"white",
     },
 ]

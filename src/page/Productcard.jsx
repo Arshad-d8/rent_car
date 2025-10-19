@@ -51,7 +51,7 @@ export default function Productcard() {
                         <h1 className='text-xl -mt-1'>{product.door}</h1>
                     </div>
                 </div>
-                <button onClick={()=>handleclick(product.id)} className='bg-amber-400 w-full h-13 text-xl cursor-pointer mt-6 rounded-4xl'>Rent Now</button>
+                <button onClick={()=>handleclick(product.id)} className='bg-amber-400 w-full h-13 text-xl cursor-pointer mt-6 rounded-4xl hover:text-yellow-400 hover:bg-white hover:shadow-[0px_0px_10px_1px] hover:shadow-black/50'>Rent Now</button>
 
             </div>
         </div>

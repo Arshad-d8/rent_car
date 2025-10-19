@@ -18,7 +18,7 @@ export default function Profile() {
             <div className='ml-5 pr-5 '>
                 <div className='flex pt-5'>
                     <div >
-                        <FiEdit3 className='text-white bg-red-600 absolute top-19 cursor-pointer left-19 text-3xl rounded-full p-1'/>
+                        <FiEdit3 className='text-white bg-amber-400 absolute mt-14 cursor-pointer ml-15 text-3xl rounded-full p-1'/>
                         <img className='h-20 w-20 row-span-2 rounded-lg' src={pro} />
                     </div>
                     <div className='text-left ml-7'>
