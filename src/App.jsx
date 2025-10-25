@@ -9,6 +9,7 @@ import Products from './page/Products';
 import Productcard from './page/productcard';
 import Navbar from './components/navbar';
 import Payment from './page/Payment';
+import Home from './page/home';
 
 export default function App() {
   // const location=useLocation();
@@ -18,7 +19,8 @@ export default function App() {
       { location.pathname !== '/' && <Navbar/>}
       {/* <Navbar/> */}
       <Routes>
-        <Route path='/' element={<Sign_in/>}/>
+        <Route path='signin' element={<Sign_in/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='forgetpassword' element={<Forgetpass/>}/>
         <Route path='sign_up' element={<Sign_up/>}/>
         <Route path='profile' element={<Profile/>}/>

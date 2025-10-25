@@ -17,7 +17,7 @@ export default function Products() {
     }
 
     return (
-        <div className=' min-h-screen max-h-full  bg-white bg-fixed w-full' >
+        <div className=' min-h-screen max-h-full  bg-white bg-fixed w-full pt-20' >
             {/* <div className='h-20 pt-5 flex justify-between rounded-b-4xl pr-10 pl-10 bg-amber-400'>
                 <div className='flex '>
                     <button className='absolute pt-2 pl-2'>
@@ -45,7 +45,7 @@ export default function Products() {
                                     <h1 className='float-start pt-3'>{cards.name}</h1>
                                     <div className='flex justify-between w-full pb-3'>
                                         <p className='flex'><IoLocationOutline className='relative top-1' />{cards.location}</p>
-                                        <p className='text-yellow-500'>${cards.price}/day</p>
+                                        <p className='text-yellow-400'>${cards.price}/day</p>
                                     </div>
                                 </div>
                             ))}
@@ -63,7 +63,7 @@ export default function Products() {
                                     <h1 className='float-start pt-3'>{cards.name}</h1>
                                     <div className='flex justify-between w-full pb-3'>
                                         <p className='flex'><IoLocationOutline className='relative top-1' />{cards.location}</p>
-                                        <p className='text-yellow-500'>${cards.price}/day</p>
+                                        <p className='text-yellow-400'>${cards.price}/day</p>
                                     </div>
                                 </div>
                             ))}

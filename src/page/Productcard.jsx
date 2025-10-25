@@ -19,7 +19,7 @@ export default function Productcard() {
         navigate('payment')
     }
     return (
-        <div className='grid grid-cols-2 min-h-full max-h-full mt-10'>
+        <div className='grid grid-cols-2 min-h-full max-h-full pt-30'>
             <div className=' ml-5 content-center'>
                 <img src={product.image} className='rounded-2xl' />
             </div>

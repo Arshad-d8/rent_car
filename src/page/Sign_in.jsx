@@ -18,7 +18,7 @@ export default function Sign_in() {
 
     const handlesubmit=()=>{
         if(user=='arshad' && pass==1234){
-            navigate('/products')
+            navigate('/profile')
         }
         user!="arshad" || pass!=1234 ? setError('Incorrect username/password'): setError('')
     }
